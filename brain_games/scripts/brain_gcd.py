@@ -6,7 +6,7 @@ from brain_games.games import brain_gcd_module
 
 
 def main():
-    start_game(brain_gcd_module)
+    start_game(brain_gcd_module)  # аргумент - импортированный соответствующий модуль игры  # noqa: E501
 
 
 if __name__ == '__ main__':

@@ -9,6 +9,7 @@ def start_game(game):  # в качестве аргумента выступаю
     print(f"Hello, {name}!")
     print(game.TASK)
     start_from_round = 1
+
     while start_from_round <= ROUNDS:
         question, answer = game.generate_round()  # получение значений из модуля игры  # noqa: E501
         print("Question: " + question)
