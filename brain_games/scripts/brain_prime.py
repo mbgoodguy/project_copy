@@ -6,7 +6,7 @@ from brain_games.games import brain_prime_module
 
 
 def main():
-    start_game(brain_prime_module)  # аргумент - импортированный модуль игры, в котором вызвана функция start_game(game)
+    start_game(brain_prime_module)  # аргумент - импортированный модуль игры
 
 
 if __name__ == '__main__':
