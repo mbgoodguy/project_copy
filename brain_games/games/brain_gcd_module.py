@@ -3,7 +3,11 @@ import random
 TASK = 'Find the greatest common divisor of given numbers.'
 
 
+<<<<<<< HEAD
 def round():
+=======
+def begin_round():
+>>>>>>> f3e866529e428e78730cd1c17c968b1660f590e3
     number1 = random.randint(1, 50)
     number2 = random.randint(1, 50)
     answer = gcd(number1, number2)
