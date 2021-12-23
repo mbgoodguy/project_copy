@@ -3,18 +3,10 @@ import random
 TASK = 'Find the greatest common divisor of given numbers.'
 
 
-<<<<<<< HEAD
-def round():
-=======
-<<<<<<< HEAD
-def round():
-=======
-def begin_round():
->>>>>>> f3e866529e428e78730cd1c17c968b1660f590e3
->>>>>>> 372eb9344b6e6b688b4e45b73826be654d132c9d
+def generate_round():
     number1 = random.randint(1, 50)
     number2 = random.randint(1, 50)
-    answer = gcd(number1, number2)
+    answer = gcd(number1, number2)  # в функцию gcd подставляем аргументы из функции begin_round()   # noqa: E501
     question = f'{number1} {number2}'
     return question, str(answer)
 

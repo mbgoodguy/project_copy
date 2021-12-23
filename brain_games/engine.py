@@ -10,15 +10,7 @@ def start_game(game):
     print(game.TASK)
     start_from_round = 1
     while start_from_round <= ROUNDS:
-<<<<<<< HEAD
-        question, answer = game.round()
-=======
-<<<<<<< HEAD
-        question, answer = game.round()
-=======
-        question, answer = game.begin_round()
->>>>>>> f3e866529e428e78730cd1c17c968b1660f590e3
->>>>>>> 372eb9344b6e6b688b4e45b73826be654d132c9d
+        question, answer = game.generate_round()
         print("Question: " + question)
         user_answer = prompt.string('Your answer: ')
         if user_answer == answer:
